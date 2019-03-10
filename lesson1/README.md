@@ -2,9 +2,10 @@
 
 Get started
 
-# Description
+# Goal
 
 - structure of a html page
+- run javascript code
 
 # Links
 

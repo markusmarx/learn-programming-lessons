@@ -1,14 +1,28 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <style>
+            .yourname {
+                font-weight: bold
+            }
+        </style>
     </head>
     <body>
-        <div><h1 id="msg"></h1></div>
+        <span>Welcome</span>
+        <span class="yourname">Your Name</span>
+        <div>Welcome</div>
+        <div class="yourname">Your Name</div>
+        <div id="msg"></div>
         <script>
-            let msg = 'Hello ';
+
+            function addText(text) {
+                document.getElementById('msg').innerHTML = document.getElementById('msg').innerHTML + text + '<br>';
+            }
+
+            let msg = 'Welcome ';
             let name = 'Your Name';
             let icon = ' <i class="fa fa-smile-wink"></i>';
-            document.getElementById('msg').innerHTML = msg + name + icon;
+            addText(msg + name + icon);
         </script>
     </body>
 </html>
