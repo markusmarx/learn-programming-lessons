@@ -4,11 +4,8 @@ Get started
 
 # Goal
 
-- structure of a html page
+- understand variables
 - run javascript code
 
 # Links
 
-https://wiki.selfhtml.org/
-
-https://www.w3schools.com
